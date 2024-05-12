@@ -16,11 +16,14 @@
 body{
   font-family: "Sora", sans-serif;
   font-style: normal;
+  height:100vh;
+  background-color: red
 
 }
 
 main{
   width:100vw;
+  height:100vh;
  
   display: flex;
   justify-content: center;
@@ -29,6 +32,7 @@ main{
 
 .card-container{
   width:21rem;
+  height:max-content;
   padding:1rem;
   margin-top:10.25rem;  
   background-color:var(--white);
