@@ -29,8 +29,8 @@ main{
 }
 
 .card-container{
-  width:25rem;
-  max-width: 100%;
+  width:80%;
+  max-width: 25rem;
   height:max-content;
   padding:1rem 1rem 1.25rem 1rem;
   margin-top:10.25rem;  
@@ -74,7 +74,7 @@ main{
 .tag-content{
   position:absolute;
   color:var(--purple-color);
-  font-size:0.875rem;
+  font-size:clamp(.625rem, 66.667vw, 0.875rem);
   font-weight:bold;
   background-color:var(--violet-color);
   padding:4px 20px;
@@ -88,11 +88,12 @@ main{
 }
 
 .body-title{
+  width: max(100%, 180px);
  margin-bottom:.875rem;
 }
 
 .title-content{
-  font-size:1.5rem;
+  font-size:clamp(1rem, 66.667vw, 1.5rem); 
   color:var(--chumbo-500)
 }
 
@@ -101,7 +102,7 @@ main{
 }
 
 .text-content{
-  font-size:1rem;
+  font-size:clamp(.875rem, 66.667vw, 1rem);
   color:var(--chumbo-300); 
   letter-spacing:1px;
 }
@@ -124,7 +125,7 @@ main{
 
 .footer-content{
   color:var(--chumbo-300);
-  font-size:.875rem;
+  font-size:clamp(.625rem, 66.667vw, 0.875rem);
   letter-spacing:1px;
 }
 
